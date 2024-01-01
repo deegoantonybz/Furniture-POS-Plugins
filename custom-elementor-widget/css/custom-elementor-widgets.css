@@ -1,0 +1,106 @@
+/* Add this CSS to your stylesheets */
+.store-selector {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .store-label {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  .store-details {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    z-index: 1;
+  }
+
+  .store-details.hidden {
+    display: none;
+  }
+  
+  .store-details.show {
+    display: block;
+  }
+
+  .store {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.button-store {
+  display: inline-block;
+  float: right;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(245,154,87); 
+    color: #ffffff; 
+    border-radius: 15px;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.wd-heading .wd-action-btn {
+  /* flex: 0 0 auto; */
+  font-size: 1.1rem;
+}
+
+#storeButton {
+  border-radius: 5px; /* Adjust the value to control the curve radius */
+  padding: 10px 15px; /* Add padding for better appearance */
+  background-color: #f0f0f0; /* Adjust background color as needed */
+  color: #333; /* Adjust text color */
+  cursor: pointer; /* Show pointer cursor on hover */
+
+  /* Make left and right ends curved like semi-circles */
+  border-radius: 50px; /* Use a higher value for more prominent semi-circles */
+  width: 150px; /* Set the width of the button */
+  overflow: hidden; /* Ensure content stays within the curved ends */
+  
+}
+
+.wd-overlay-side {
+  position: fixed;
+  z-index: 400;
+  /* visibility: hidden; */
+  background-color: rgba(0,0,0,0.7);
+}
+
+.store-search {
+  margin-top: 5px;
+}
+.store-search .searchStores a {
+  display: inline-block;
+  /* float: right; */
+    padding: 8px 12px;
+    /* font-size: 14px; */
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(245,154,87); 
+    color: #ffffff; 
+    border-radius: 15px;
+    -webkit-appearance: none;
+    appearance: none;
+    margin-top: 3px;
+}
+.store p {
+  text-align: left;
+}
+
+
+
+  
+  
